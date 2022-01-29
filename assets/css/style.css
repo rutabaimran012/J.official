@@ -4,25 +4,43 @@
 }
 nav{
     display: flex;
-    padding: 10px 12px;
+    padding: 12px 12px 5px 12px;
     justify-content: space-between;
     background-color: #efefef;
 }
 .flag-image{
     width: 20px;
     height: 13px;
+    cursor: pointer;
 }
 .lock-image{
     width: 15px ;
     height: 17px;
     margin-right: 10px;
 }
+/* .lock-image:hover{
+    color: rgb(117, 106, 106);
+} */
+.nav-div{
+    margin-top: -12px;
+    display: flex;
+}
+.nav-searchicon-div{
+    margin-left: 2px;
+}
+.nav-searchdiv{
+    display: flex;
+}
+.nav-image-div{
+     margin-top: -2px
+}
 .search-image{
     width: 15px;
     height: 14px;
+    cursor: pointer;
 }
 .welcome-para{
-    font-size: 10px;
+    font-size: 11px;
     color: black;
     text-decoration: none;
     margin-left: 8px;
@@ -32,31 +50,48 @@ nav{
     color: rgb(117, 106, 106);
 }
 .signin-link{
-    font-size: 10px;
+    font-size: 11px;
     color: black;
     text-decoration: none;
     margin-right: 10px;
+    margin-left: 160px;
+}
+.signin-link:hover{
+    color: rgb(117, 106, 106);
+    text-decoration: underline;
 }
 .trackinginfo-link{
-    font-size: 10px;
+    font-size: 11px;
     color: black;
     text-decoration: none;
     margin-left: 30px;
     margin-right: 10px;
 }
+.trackinginfo-link:hover{
+    color: rgb(117, 106, 106);
+    text-decoration: underline;
+}
 .pkr-selector{
-    font-size: 10px;
+    font-size: 11px;
     color: black;
     text-decoration: none;
     border: none;
     background-color: #efefef;
+    margin-top: -7px;
+}
+.pkr-selector:hover{
+    color: rgb(117, 106, 106);
 }
 .search-link{
-    font-size: 10px;
+    font-size: 11px;
     color: black;
     text-decoration: none;
     margin-left: 6px;
-    margin-right: 10px
+    margin-right: 10px;
+    cursor: pointer;
+}
+.search-link:hover{
+    color: rgb(117, 106, 106);
 }
 .j-image{
     width: 42px;
@@ -64,14 +99,29 @@ nav{
     margin-left: 646px;
     padding: 21px 15px;
 }
+.header__linksdiv{
+    margin: 0px 9px 66px 89px;
+}
+.header__links{
+    font-size: 14px;
+    color: #191919;
+    padding: 0 20px;
+    text-decoration: none;
+}
+.header__multicolorlinks{
+    font-size: 14px;
+    color: black;
+    padding: 0 20px;
+    text-decoration: none;
+}
 .sale-gif{
     width: 1319px;
-    height: 497px;
+    height: 550px;
     padding: 0 15px;
 }
 .ladies-outfit{
     padding: 0 15px;
-    margin: 50px 180px;
+    margin: 83px 180px 117px 183px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -97,26 +147,31 @@ nav{
 .unstitched-link:hover{
     color: rgb(117, 106, 106);
 }
+.sanitizer-div{
+    padding: 66px 50px;
+    background-color: #fff3f7;
+}
 .sanitizer{
-    padding: 64px 64px 64px 90px;
+    padding: 64px 119px 64px 21px;
     margin: 64px;
 }
 .sanitizer-image{
     width: 919px;
     height: 328px;
+    margin-left: 37px;
 }
 .sanitizer-heading{
     font-size: 64px;
     color: #303030;
-    margin-left: 612px;
-    margin-top: 40px;
+    margin-left: 696px;
+    margin-top: -11px;
     margin-bottom: -12px;
 }
 .sanitizer-link{
     font-size: 18px;
     color: #303030;
     text-decoration: none;
-    margin-left: 812px;
+    margin-left: 891px;
     font-weight: 500;
 }
 .sanitizer-link:hover{
@@ -163,9 +218,17 @@ nav{
     color: #fff;
     margin-left: 10px;
 }
+.button-div{
+    margin-bottom: 10px;
+}
+.input-button-div{
+    display: flex;
+    margin-left: 328px;
+}
 footer{
     display: flex;
     justify-content: space-around;
+    padding-bottom: 60px;
 }
 .footer__heading{
     padding: 17px 0;
@@ -178,15 +241,21 @@ footer{
     color: #333333;
     text-decoration: none;
 }
+.footer__linknumber{
+    font-size: 16px;
+    color: #333333;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
 .footer__div1{
     display: flex;
     flex-direction: column;
-    margin-left: 19px;
+    margin-left: 10px;
 }
 .footer__div2{
     display: flex;
     flex-direction: column;
-    margin-left: -76px;
+    margin-left: -123px;
 }
 .footer__div3{
     display: flex;
@@ -197,4 +266,57 @@ footer{
     display: flex;
     flex-direction: column;
     margin-left: -90px;
+}
+.new-arrivals{
+    padding: 50px 15px 101px 15px;
+}
+.new-arrival-heading1{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    color: #303030;
+    text-align: center;
+}
+.new-arrivals-div1{
+    margin: 0 60px;
+}
+.new-arrival-heading2{
+    font-size: 64px;
+    margin: 20px 0;
+    color: #303030;
+    text-align: center;
+}
+.teen-girl-image{
+    width: 370px;
+    height: 560px;
+}
+.teen-boy-image{
+    width: 216px;
+    height: 330px;
+    margin-right: 32px;
+}
+.new-arrivals-div2{
+    display: flex;
+    justify-content: space-around;
+}
+.new-arrivals-div3{
+    display: flex;
+}
+.new-arrivals-div4{
+    text-align: center;
+    padding: 52px 0;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.new-arrival-heading3{
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 700;
+}
+.new-arrival-heading4{
+    font-size: 19px;
+    line-height: 40px;
 }

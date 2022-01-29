@@ -14,32 +14,39 @@
     <nav>
         <div>
             <p class="welcome-para">WELCOME TO J.</p>
-            <a class="signin-link" href="#">SIGN IN</a>
-            <img class="flag-image"
-                src="https://www.junaidjamshed.com/static/version1642705942/frontend/Rltsquare/junaidjamshed/en_US/Magento_Theme/images/pak-flag.png">
-            <a class="trackinginfo-link" href="#">TRACKING INFO</a>
-            <select class="pkr-selector">
-                <option value="pkr">PKR</option>
-            </select>
+            <div class="nav-div">
+                <a class="signin-link" href="#">SIGN IN</a>
+                <div class="nav-image-div">
+                    <img class="flag-image"
+                        src="https://www.junaidjamshed.com/static/version1642705942/frontend/Rltsquare/junaidjamshed/en_US/Magento_Theme/images/pak-flag.png">
+                </div>
+                <a class="trackinginfo-link" href="#">TRACKING INFO</a>
+                <select class="pkr-selector">
+                    <option value="pkr">PKR</option>
+
+                </select>
+            </div>
         </div>
-        <div>
+        <div class="nav-searchdiv">
             <a href="#"><img class="lock-image" src="./images/svgexport-1 (1).svg"></a>
-            <img class="search-image" src="images/icons8-found-24.png">
-            <span class="search-link">SEARCH</span>
+            <div class="nav-searchicon-div">
+                <img class="search-image" src="images/icons8-found-24.png">
+                <span class="search-link">SEARCH</span>
+            </div>
         </div>
     </nav>
     <header>
         <a href="#"><img class="j-image" src="https://www.junaidjamshed.com/media/logo/stores/1/new_logo.png"></a>
-        <div>
-            <a href="#">NEW ARRIVALS</a>
-            <a href="#">EXCLUSIVE COLLECTION</a>
-            <a href="#">WOMEN</a>
-            <a href="#">MEN</a>
-            <a href="#">BOYS & GIRLS</a>
-            <a href="#">FRAGRANCES</a>
-            <a href="#">MAKEUP</a>
-            <a href="#">CATALOGUE</a>
-            <a href="#">40% - 50%</a>
+        <div class="header__linksdiv">
+            <a class="header__multicolorlinks" href="#">NEW ARRIVALS</a>
+            <a class="header__links" href="#">EXCLUSIVE COLLECTION</a>
+            <a class="header__links" href="#">WOMEN</a>
+            <a class="header__links" href="#">MEN</a>
+            <a class="header__links" href="#">BOYS & GIRLS</a>
+            <a class="header__links" href="#">FRAGRANCES</a>
+            <a class="header__links" href="#">MAKEUP</a>
+            <a class="header__links" href="#">CATALOGUE</a>
+            <a class="header__multicolorlinks" href="#">40% - 50%</a>
         </div>
         <img class="sale-gif"
             src="https://www.junaidjamshed.com/media/weltpixel/owlcarouselslider/images/s/a/sale_11.gif">
@@ -92,19 +99,35 @@
 
     <!-- section 4 code starts -->
     <section class="sanitizer">
-        <a href="#"><img class="sanitizer-image" src="https://www.junaidjamshed.com/media/wysiwyg/012.jpg"></a>
+        <div class="sanitizer-div">
+            <a href="#"><img class="sanitizer-image" src="https://www.junaidjamshed.com/media/wysiwyg/012.jpg"></a>
+        </div>
         <h1 class="sanitizer-heading">Sanitizer</h1>
         <a class="sanitizer-link" href="#">SHOP NOW</a>
     </section>
     <!-- section 4 code ends -->
 
     <!-- section 5 code starts -->
-    <section>
-        <h2>NEW ARRIVALS</h2>
-        <h1>Boys & Girls</h1>
-        <h2>NEW COLLECTION</h2>
-        <h2>DRESS BRIGHT AND LIVELY</h2>
-        <h2>WITH J. YOUNGSTERS COLLECTION</h2>
+    <section class="new-arrivals">
+        <div class="new-arrivals-div1">
+            <h2 class="new-arrival-heading1">NEW ARRIVALS</h2>
+            <h1 class="new-arrival-heading2">Boys & Girls</h1>
+            <div class="new-arrivals-div2">
+                <img class="teen-girl-image" src="https://www.junaidjamshed.com/media/wysiwyg/wi7.jpg">
+                <div>
+                    <div class="new-arrivals-div3">
+                        <img class="teen-boy-image" src="https://www.junaidjamshed.com/media/wysiwyg/wi8.jpg">
+                        <img class="teen-boy-image" src="https://www.junaidjamshed.com/media/wysiwyg/wi9.jpg">
+                        <img class="teen-boy-image" src="https://www.junaidjamshed.com/media/wysiwyg/wi10.jpg">
+                    </div>
+                    <div class="new-arrivals-div4">
+                    <h2 class="new-arrival-heading3">NEW COLLECTION</h2>
+                    <h2 class="new-arrival-heading4">DRESS BRIGHT AND LIVELY</h2>
+                    <h2 class="new-arrival-heading3">WITH J. YOUNGSTERS COLLECTION</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- section 5 code ends -->
 
@@ -112,9 +135,14 @@
     <section class="be-the-first">
         <div class="bethefirst__div">
             <h1 class="bethefirst__heading">BE THE FIRST</h1>
-            <p class="bethefirst__paragraph">New arrivals. Exclusive previews. First access to sales. Sign up to stay in the know.</p>
-            <input class="bethefirst__input" type="email" placeholder="Enter your email address">
-            <button class="bethefirst__button">SIGN UP</button>
+            <p class="bethefirst__paragraph">New arrivals. Exclusive previews. First access to sales. Sign up to stay in
+                the know.</p>
+            <div class="input-button-div">
+                <input class="bethefirst__input" type="email" placeholder="Enter your email address">
+                <div class="button-div">
+                    <button class="bethefirst__button">SIGN UP</button>
+                </div>
+            </div>
         </div>
     </section>
     <!-- section 6 code ends -->
@@ -123,7 +151,7 @@
     <footer>
         <div class="footer__div1">
             <h1 class="footer__heading">NEED HELP?</h1>
-            <a class="footer__links" href="#">+92 21 111 112 111 (9am - 10pm , Mon - Sat)</a>
+            <a class="footer__linknumber" href="#">+92 21 111 112 111 (9am - 10pm , Mon - Sat)</a>
             <a class="footer__links" href="#">eshop@junaidjamshed.com</a>
         </div>
         <div class="footer__div2">
@@ -131,7 +159,7 @@
             <a class="footer__links" href="#">Contact Us</a>
             <a class="footer__links" href="#">Delivery & Orders</a>
             <a class="footer__links" href="#">Returns & Exchanges</a>
-            <a  class="footer__links"href="#">Terms & Conditions</a>
+            <a class="footer__links" href="#">Terms & Conditions</a>
             <a class="footer__links" href="#">Privacy Policy</a>
             <a class="footer__links" href="#">Track My Order</a>
             <a class="footer__links" href="#">Payment Guide</a>
